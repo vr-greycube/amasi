@@ -8,11 +8,11 @@ def get_data():
         {
             "label": _("Documents"),
             "items": [
-                # {
-                #     "type": "doctype",
-                #     "name": "",
-                #     "description": _(""),
-                # },
+                {
+                    "type": "doctype",
+                    "name": "Item Replacement CT",
+                    "description": _("Item Replacement CT"),
+                },
             ],
         },
     ]
