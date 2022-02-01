@@ -7,6 +7,9 @@
   "item_code",
   "item_name",
   "qty",
+  "batch_no",
+  "cb_1",
+  "serial_no",
   "warehouse",
   "reference_ste"
  ],
@@ -46,10 +49,25 @@
    "fieldtype": "Data",
    "label": "Reference STE",
    "read_only": 1
+  },
+  {
+   "fieldname": "batch_no",
+   "fieldtype": "Link",
+   "label": "Batch No",
+   "options": "Batch"
+  },
+  {
+   "fieldname": "cb_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Small Text",
+   "label": "Serial No"
   }
  ],
  "istable": 1,
- "modified": "2021-08-02 10:59:13.568521",
+ "modified": "2022-01-31 08:00:43.967443",
  "modified_by": "Administrator",
  "module": "Amasi",
  "name": "Item Returned",
