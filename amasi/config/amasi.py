@@ -15,5 +15,16 @@ def get_data():
                 },
             ],
         },
+        {
+            "label": _("Reports"),
+            "items": [
+                {
+                    "type": "report",
+                    "name": "Item and Batch Sales Detail",
+                    "description": _("Item and Batch Sales Detail"),
+                    "is_query_report": True,
+                },
+            ],
+        },
     ]
     return config
